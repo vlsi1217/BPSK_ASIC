@@ -1,0 +1,37 @@
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/C-2009.06-SP2/libraries/syn/dw02.sldb /apps/synopsys/C-2009.06-SP2/libraries/syn/dw01.sldb }
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+read_verilog costas.v
+check_design
+set_driving_cell -lib_cell CND2X1 [all_inputs]
+set_drive 0 clk
+set_dont_touch_network clk
+create_clock clk -name clk -period 4.750000
+set_propagated_clock clk
+set_clock_uncertainty 0.35 clk
+set_propagated_clock clk
+dont_touch tc240c/CDLY2XL
+dont_use tc240c/CFDN2QXL
+dont_use tc240c/CFDN2XL
+dont_use tc240c/CFDN1QXL
+dont_use tc240c/CFDN*L
+dont_use tc240c/CFDN*1
+dont_use tc240c/CFDN*Q*
+set_max_delay 50 -from reset
+set_max_delay 5 -from pushADC
+set_max_delay 5 -from ADC
+set_max_delay 5 -to pushByte
+set_max_delay 5 -to Byte
+set_max_delay 5 -to Sync
+set_max_delay 5 -to lastByte
+set_max_delay 5 -from stopIn
+set_fix_hold [ get_clocks clk ]
+compile -map_effort medium
+create_clock clk -name clk -period 5.000000
+set_propagated_clock clk
+set_clock_uncertainty 0.35 clk
+set_propagated_clock clk
+update_timing
+report -cell
+report_timing -max_paths 10
+write -hierarchy -format verilog -output costas_gates.v
+quit

@@ -1,0 +1,13 @@
+Starting the run of the project cycle time 5
+Run on Sun May 12 20:36:44 PDT 2013
+sawa0037 on eecad2.engr.sjsu.edu
+Running simulation cases
+NCverilog
+NCverilog Simulation run on Sun May 12 20:36:44 PDT 2013
+ simulation OK
+vcs Simulation run on Sun May 12 20:37:33 PDT 2013
+VCS finished
+simv finished
+ simulation OK
+icarus Verilog finishedicarus Verilog completed OK
+synthesis ran

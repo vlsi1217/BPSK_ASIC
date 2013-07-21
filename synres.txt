@@ -1,0 +1,977 @@
+Warning: DC is only available in Tcl and XG mode. The -tcl_mode and -xg_mode options are no longer required.
+
+                        DC Professional (TM)
+                           DC Expert (TM)
+                            DC Ultra (TM)
+                       FloorPlan Manager (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                        Library Compiler (TM)
+                      DesignWare Developer (TM)
+                          DFT Compiler (TM)
+                            BSD Compiler
+                         Power Compiler (TM)
+
+           Version C-2009.06-SP5 for linux -- Jan 15, 2010
+              Copyright (c) 1988-2009 by Synopsys, Inc.
+                         ALL RIGHTS RESERVED
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+The above trademark notice does not imply that you are licensed to use 
+all of the listed products. You are licensed to use only those products 
+for which you have lawfully obtained a valid license key.
+
+Initializing...
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/C-2009.06-SP2/libraries/syn/dw02.sldb /apps/synopsys/C-2009.06-SP2/libraries/syn/dw01.sldb }
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/C-2009.06-SP2/libraries/syn/dw02.sldb /apps/synopsys/C-2009.06-SP2/libraries/syn/dw01.sldb 
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25
+read_verilog costas.v
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Loading db file '/apps/synopsys/C-2009.06-SP2/libraries/syn/dw02.sldb'
+Loading db file '/apps/synopsys/C-2009.06-SP2/libraries/syn/dw01.sldb'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+Warning: Function '=' leaked 1 allocations for 16 bytes. (EQN-21)
+  Loading link library 'gtech'
+Loading verilog file '/home/sa/sawa0037/costas/may12/costas.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Opening include file nco_try.v
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/sa/sawa0037/costas/may12/costas.v
+Opening include file nco_try.v
+Opening include file tables.v
+Opening include file mult_pre_try.v
+Warning:  nco_try.v:20: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:21: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:24: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:25: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:27: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:32: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:33: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:35: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:36: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nco_try.v:38: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Opening include file mult_post.v
+Warning:  mult_pre_try.v:22: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:23: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:24: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:26: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:27: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:28: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:30: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:37: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:38: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:40: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:41: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_pre_try.v:42: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Opening include file Filter.v
+Warning:  mult_post.v:22: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:23: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:24: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:26: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:27: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:28: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:30: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:37: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:38: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:40: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:41: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  mult_post.v:42: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Opening include file match21.v
+Warning:  Filter.v:164: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:166: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:211: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:220: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:221: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:222: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:223: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:224: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:225: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:226: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:227: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:228: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:229: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:230: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:231: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:232: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:233: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:234: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:235: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:236: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:237: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:238: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:239: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:240: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:241: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:242: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:243: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:244: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:245: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:246: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:247: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:248: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:249: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:250: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:251: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:252: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:253: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:254: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:255: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:256: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:257: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:258: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:259: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:260: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:261: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:262: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:263: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:320: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:321: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:323: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:327: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:391: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:392: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:393: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:394: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:395: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:396: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:397: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:398: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:399: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:400: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:401: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:402: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:403: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:404: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:405: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:406: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:407: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:408: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:409: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:410: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:411: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:412: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:413: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:414: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:415: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:416: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:417: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:418: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:419: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:420: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:421: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:422: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:423: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:424: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:425: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:426: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:427: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:428: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:429: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:430: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:431: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:432: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:433: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:434: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:437: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:438: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:439: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:440: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:441: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:442: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:443: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:444: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:445: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:446: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:447: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:448: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:449: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:450: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:451: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:452: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:453: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:454: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:455: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:456: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:457: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:458: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:459: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:460: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:461: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:462: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:463: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:464: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:465: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:466: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:467: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:468: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:469: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:470: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:471: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:472: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:473: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:474: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:475: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:476: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:477: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:478: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:479: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:480: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:482: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:539: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:540: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:542: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:543: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  Filter.v:544: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Opening include file decode.v
+Opening include file fifo_V21.v
+Warning:  match21.v:35: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:40: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:45: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:47: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:50: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:53: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:63: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:66: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:69: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:70: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:71: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:72: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:73: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:74: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:75: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:76: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:77: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:78: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:79: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:80: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:81: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:82: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:83: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:84: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:85: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:86: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:87: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:88: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:89: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:90: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:91: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:92: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:93: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:94: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:95: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:96: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:97: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:98: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:99: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:100: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:101: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:102: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:103: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:104: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:105: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:106: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:107: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:108: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:109: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:110: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:111: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:112: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:113: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:114: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:115: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:116: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:117: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:118: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:119: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:120: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:121: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:122: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:123: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:124: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:125: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:126: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:127: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:128: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:129: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:130: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:131: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:132: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:133: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:134: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:135: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:136: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:137: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:138: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:139: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:140: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:141: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:142: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:143: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:144: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:145: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:146: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:147: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:148: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:149: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:150: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:151: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:152: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:153: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:156: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:169: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:172: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:173: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:174: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:175: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:176: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:177: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:178: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:179: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:180: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:181: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:182: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:183: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:184: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:185: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:186: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:187: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:188: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:189: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:190: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:191: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:192: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:194: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:205: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:208: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:209: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:210: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:211: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:212: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:214: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:222: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:225: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:226: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:228: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:243: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:247: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:249: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:289: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:294: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:295: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:297: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:298: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:302: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:314: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:315: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:316: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:317: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:318: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:319: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:320: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:321: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:322: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:323: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:325: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:326: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:327: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:328: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:329: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:330: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:331: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:332: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:333: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:334: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:343: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:344: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:346: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:349: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:350: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:352: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:356: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:357: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:358: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:359: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:360: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:361: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:362: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:363: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:364: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:365: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:366: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:368: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:376: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:378: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:379: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  match21.v:381: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:55: the undeclared symbol 'full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  fifo_V21.v:56: the undeclared symbol 'empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  fifo_V21.v:81: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:85: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:92: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:94: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:100: The statements in initial blocks are ignored. (VER-281)
+Warning:  fifo_V21.v:100: Only simple variables are allowed in the sensitivity list for synthesis. (ELAB-92)
+Warning:  fifo_V21.v:123: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:127: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:147: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:148: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:149: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:150: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:154: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:157: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:159: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:161: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:164: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:165: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:166: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_V21.v:167: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+
+Statistics for case statements in always block at line 43 in file
+	'nco_try.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           1038           |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine nco line 18 in file
+		'nco_try.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    pushinsa_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       ou_reg        | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine nco line 30 in file
+		'nco_try.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    pushinsa1_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     ou_reg_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Warning:  mult_pre_try.v:26: unsigned to signed assignment occurs. (VER-318)
+Warning:  mult_pre_try.v:27: unsigned to signed assignment occurs. (VER-318)
+Warning:  mult_pre_try.v:49: unsigned to signed assignment occurs. (VER-318)
+
+Inferred memory devices in process
+	in routine multi_pre line 19 in file
+		'mult_pre_try.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     ADC_in_reg      | Flip-flop |  25   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     IQ_arm_reg      | Flip-flop |  25   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  flag_out_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine multi_pre line 34 in file
+		'mult_pre_try.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  flag_out_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Warning:  mult_post.v:26: unsigned to signed assignment occurs. (VER-318)
+Warning:  mult_post.v:27: unsigned to signed assignment occurs. (VER-318)
+Warning:  mult_post.v:49: unsigned to signed assignment occurs. (VER-318)
+
+Inferred memory devices in process
+	in routine multi_post line 19 in file
+		'mult_post.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     ADC_in_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     IQ_arm_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  flag_out_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine multi_post line 34 in file
+		'mult_post.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  flag_out_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Warning:  Starting with the 2000.11-1 release, the Presto Verilog reader treats Verilog 'integer' types as signed; synthesized result may not match earlier versions of HDL Compiler. (VER-314)
+Warning:  Filter.v:33: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:34: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:35: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:36: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:37: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:42: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:43: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:44: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:45: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:55: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:56: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:57: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:58: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:64: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:65: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:66: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:67: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:320: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:547: unsigned to signed assignment occurs. (VER-318)
+Warning:  Filter.v:391: 'pr_dw0' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:392: 'pr_dw1' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:393: 'pr_dw2' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:394: 'pr_dw3' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:395: 'pr_dw4' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:396: 'pr_dw5' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:397: 'pr_dw6' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:398: 'pr_dw7' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:399: 'pr_dw8' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:400: 'pr_dw9' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:401: 'pr_dw10' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:402: 'pr_dw11' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:403: 'pr_dw12' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:404: 'pr_dw13' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:405: 'pr_dw14' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:406: 'pr_dw15' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:407: 'pr_dw16' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:408: 'pr_dw17' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:409: 'pr_dw18' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:410: 'pr_dw19' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:411: 'pr_dw20' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:412: 'pr_dw21' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:413: 'pr_dw22' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:414: 'pr_dw23' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:415: 'pr_dw24' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:416: 'pr_dw25' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:417: 'pr_dw26' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:418: 'pr_dw27' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:419: 'pr_dw28' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:420: 'pr_dw29' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:421: 'pr_dw30' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:422: 'pr_dw31' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:423: 'pr_dw32' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:424: 'pr_dw33' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:425: 'pr_dw34' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:426: 'pr_dw35' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:427: 'pr_dw36' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:428: 'pr_dw37' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:429: 'pr_dw38' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:430: 'pr_dw39' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:431: 'pr_dw40' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:432: 'pr_dw41' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  Filter.v:433: 'pr_dw42' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine fir line 27 in file
+		'Filter.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      coef_reg       | Flip-flop | 1376  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fir line 214 in file
+		'Filter.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       sr_reg        | Flip-flop | 1376  |  Y  | N  | Y  | N  | N  | N  | N  |
+|     flagin1_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fir line 536 in file
+		'Filter.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     sumout_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     flagin4_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fir line 75 in file
+		'Filter.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     pr_dw41_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw42_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw1_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw7_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw9_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw15_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw23_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw37_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw39_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw13_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw25_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw31_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw0_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw12_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw24_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw30_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw6_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw22_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw36_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw38_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw8_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw14_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     flagin2_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw2_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw10_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw26_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw28_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw32_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw4_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw20_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw34_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw16_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw18_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw3_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw5_reg      | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw17_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw19_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw21_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw35_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw11_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw27_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw29_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw33_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pr_dw40_reg     | Flip-flop |  40   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fir line 343 in file
+		'Filter.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     flagin3_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       pr_reg        | Flip-flop | 1720  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Warning:  Starting with the 2000.11-1 release, the Presto Verilog reader treats Verilog 'integer' types as signed; synthesized result may not match earlier versions of HDL Compiler. (VER-314)
+Warning:  match21.v:47: unsigned to signed assignment occurs. (VER-318)
+Warning:  match21.v:175: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:176: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:177: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:178: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:179: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:182: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:183: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:184: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:190: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:191: signed to unsigned conversion occurs. (VER-318)
+Warning:  match21.v:232: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:265: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:357: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:358: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:359: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:360: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:361: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:362: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:363: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:364: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:365: signed to unsigned assignment occurs. (VER-318)
+Warning:  match21.v:366: signed to unsigned assignment occurs. (VER-318)
+Warning:  decode.v:130: Variable dox may be read before being assigned; the synthesized result may not match simulations. (ELAB-391)
+
+Statistics for case statements in always block at line 374 in file
+	'match21.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            8             |     no/auto      |
+|            90            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine mf line 29 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   flag_in_reg_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|       sr_reg        | Flip-flop | 16000 |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 285 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      cnt_reg2       | Flip-flop |  31   |  Y  | N  | N  | N  | N  | N  | N  |
+|      cnt_reg2       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     reg250_reg      | Flip-flop |  238  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 339 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    final_reg_reg    | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    flag2_reg_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      cnt_reg3       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 311 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       d1_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d0_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d8_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d6_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d9_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d7_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d5_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d3_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d4_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       d2_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 57 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   flag_in_reg_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|      pre0_reg       | Flip-flop | 2720  |  Y  | N  | Y  | N  | N  | N  | N  |
+|      pre0_reg       |   Latch   |  480  |  Y  | N  | Y  | N  | -  | -  | -  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 220 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   flag_in_reg_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|       p3_reg        | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 242 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      sync_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 374 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    flag2_reg_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 268 in file
+		'match21.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|       cnt_reg       | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+|    syncflag_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine mf line 164 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   flag_in_reg_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|       p1_reg        | Flip-flop |  640  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine mf line 200 in file
+		'match21.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   flag_in_reg_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|       p2_reg        | Flip-flop |  128  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Error:  match21.v:268: Net 'cnt[31]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[30]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[29]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[28]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[27]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[26]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[25]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[24]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[23]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[22]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[21]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[20]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[19]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[18]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[17]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[16]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[15]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[14]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  match21.v:268: Net 'cnt[13]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+*** Presto compilation terminated with 19 errors. ***
+Error: Can't read 'verilog' file '/home/sa/sawa0037/costas/may12/costas.v'. (UID-59)
+No designs were read
+check_design
+Error: Current design is not defined. (UID-4)
+0
+set_driving_cell -lib_cell CND2X1 [all_inputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'port_list' must have 1 elements. (CMD-036)
+0
+set_drive 0 clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'clk'. (UID-109)
+Error: Value for list 'port_list' must have 1 elements. (CMD-036)
+0
+set_dont_touch_network clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list '<object_list>' must have 1 elements. (CMD-036)
+0
+create_clock clk -name clk -period 4.750000
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+set_propagated_clock clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty 0.35 clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_propagated_clock clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+dont_touch tc240c/CDLY2XL
+1
+dont_use tc240c/CFDN2QXL
+1
+dont_use tc240c/CFDN2XL
+1
+dont_use tc240c/CFDN1QXL
+1
+dont_use tc240c/CFDN*L
+1
+dont_use tc240c/CFDN*1
+1
+dont_use tc240c/CFDN*Q*
+1
+set_max_delay 50 -from reset
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'reset'. (UID-109)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+set_max_delay 5 -from pushADC
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'pushADC'. (UID-109)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+set_max_delay 5 -from ADC
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'ADC'. (UID-109)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+set_max_delay 5 -to pushByte
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'pushByte'. (UID-109)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+set_max_delay 5 -to Byte
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'Byte'. (UID-109)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+set_max_delay 5 -to Sync
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'Sync'. (UID-109)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+set_max_delay 5 -to lastByte
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'lastByte'. (UID-109)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+set_max_delay 5 -from stopIn
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'stopIn'. (UID-109)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+set_fix_hold [ get_clocks clk ]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Value for list '<clock_list>' must have 1 elements. (CMD-036)
+0
+compile -map_effort medium
+Error: Current design is not defined. (UID-4)
+0
+create_clock clk -name clk -period 5.000000
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+set_propagated_clock clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty 0.35 clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_propagated_clock clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+update_timing
+Error: Current design is not defined. (UID-4)
+0
+report -cell
+Error: Current design is not defined. (UID-4)
+0
+report_timing -max_paths 10
+Error: Current design is not defined. (UID-4)
+0
+write -hierarchy -format verilog -output costas_gates.v
+Error: No files or designs were specified. (UID-22)
+0
+quit
+
+Thank you...
